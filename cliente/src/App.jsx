@@ -1,5 +1,8 @@
 import { NavLink, Route, Routes } from "react-router-dom"
-
+import Listado from "./vistas/Listado"
+import Agregar from "./vistas/Agregar"
+import Detalles from "./vistas/Detalles"
+import Editar from "./vistas/Editar"
 
 function App() {
   return (
