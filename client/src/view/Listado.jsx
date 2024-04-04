@@ -3,7 +3,7 @@ import useAxios from "../hooks/useAxios.js"
 import { NavLink } from "react-router-dom"
 
 const Listado = () => {
-  const { datos } = useAxios('http://localhost:8000/api/pirates/')
+  const { datos } = useAxios('http://localhost:8000/api/pirates/', 'lista')
 
   const eliminar = Eliminador()
   return (
