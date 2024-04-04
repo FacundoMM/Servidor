@@ -17,7 +17,7 @@ const Eliminado = () => {
       reverseButtons: true
     }).then((result) => {
       if (result.isDenied) {
-        axios.delete(`http://localhost:8000/api/Producto/delete/${id}`)
+        axios.delete(`http://localhost:8000/api/pirates/delete/${id}`)
           .then((res) => {
             Swal.fire("El producto fue eliminado" + ` ${res}`);
 

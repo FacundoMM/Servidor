@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const db_name = "Productos"
+const db_name = "pirates"
 
 mongoose.connect(`mongodb://localhost/${db_name}`)
     .then(() => console.log(`Established a connection to the database ${db_name}`))
