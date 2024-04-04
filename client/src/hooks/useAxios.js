@@ -21,7 +21,7 @@ const useAxios = (url, accion) => {
                 console.error('Error al obtener datos:', error);
             });
     }, []);
-    
+    console.log(datos)
     return { datos };
 };
 
